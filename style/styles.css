@@ -68,3 +68,49 @@ a:hover {
     width: 100%;
     text-align: center;
 }
+
+.description {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 20px 0;
+    color: #e0e0e0;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    font-size: 1rem;
+}
+
+.features li {
+    display: flex;
+    align-items: center;
+    margin: 1em auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5em;
+    border-radius: 8px;
+    width: 80%;
+}
+
+.features li::before {
+    content: "✅";
+    margin-right: 0.5em;
+    font-size: 1.2em;
+}
+
+.download-banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.download-image {
+    width: 240px;
+    height: auto;
+}
+
+.poster {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
